@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COCO</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery.fullPage.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="fullpage">
+      <div class="section" id="section01">
+            <div class="logo" >
+                <img class="logo" src="./img/logo.png" alt="logo">
+            </div>
+               <div id="pepita_wrap">
+                   <img id="pepita" class="pepita_class" src="./img/pepita.png" alt="날아다니는 치타">
+               </div>
+        </div>
+        <div class="section" id="section02">
+            <img id="dragon" src="./img/dragon.png" alt="dragon">
+            <img id="bubble" src="./img/speechbubble.png" alt="말풍선">
+        </div>
+        <div class="section" id="section03">
+        <div class="cha_info">
+            <div class="line"></div>
+            <h1 class="title3">CHARACTERS</h1>
+            <p>CHARACTERS INTRODUCTION</p>
+             <!-- Swiper -->
+                <div class="swiper-container">
+             <div class="swiper-wrapper">
+                <ul class="swiper-slide">
+                 <li><img src="./img/migel_.png" onmouseover= "this.src='./img/miguel_h.png'" onmouseout="this.src='./img/migel_.png'" alt="등장인물소개"></li>
+                 <li><img src="./img/heto_.png" onmouseover= "this.src='./img/heto_h.png'" onmouseout="this.src='./img/heto_.png'" alt="등장인물소개"></li>
+                 <li><img src="./img/coco_mama_.png" onmouseover= "this.src='./img/coco_mama_h.png'" onmouseout="this.src='./img/coco_mama_.png'" alt="등장인물소개"></li>
+                 <li><img src="./img/dela_.png" onmouseover= "this.src='./img/dela_h.png'" onmouseout="this.src='./img/dela_.png'" alt="등장인물소개"></li>
+                 </ul>
+              <ul class="swiper-slide">
+                  <li><img src="./img/imelda_.png" onmouseover= "this.src='./img/imelda_h.png'" onmouseout="this.src='./img/imelda_.png'" alt="등장인물소개"></li>
+                  <li><img src="./img/elena_.png" onmouseover= "this.src='./img/elena_h.png'" onmouseout="this.src='./img/elena_.png'" alt="등장인물소개"></li>
+                  <li><img src="./img/dante_.png" onmouseover= "this.src='./img/dante_h.png'" onmouseout="this.src='./img/dante_.png'" alt="등장인물소개"></li>
+                 <li><img src="./img/pepita_.png" onmouseover= "this.src='./img/pepita_h.png'" onmouseout="this.src='./img/pepita_.png'" alt="등장인물소개"></li>
+              </ul>
+                </div>
+               <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section04">
+            <div class="ost">
+                <div id="ost_icon">
+                    <img id="ost_i" src="./img/music_icon.png" alt="ost_icon">
+                    <h1>OST</h1>
+                </div>
+                <img class="ost_img" src="./img/ost_img.jpg" alt="ost" width="450">
+                <img id="cd" src="./img/cd.PNG" alt="CD_img">
+                <table class="play_list">
+                    <tr>
+                        <th>&nbsp; &nbsp;</th>
+                        <th>Title</th>
+                        <th>Artist</th>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/nsx0pvgls4E" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Remember Me (Ernesto de la Cruz)</td>
+                        <td>Benjamin Bratt</td>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/DN1ao6WDyjQ" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Much Needed Advice</td>
+                        <td>Antonio Sol, Benjamin Bratt</td>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/c8q-pzrEIPc" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Everyone Knows Juanita</td>
+                        <td>Geal Garcia Bernal</td>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/yEZphNqRcZU" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Un Poco Loco</td>
+                        <td>Anthony Gonzalez, Geal Garcia Bernal</td>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/MqHgVQyuLUE" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>The World Es Mi Familia</td>
+                        <td>Anthony Gonzalez</td>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/ImutnoiBixY" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Remember Me(Lullaby)</td>
+                        <td>Gabriella Flores,Gael Garcia Bernal,Libertad Garcia Fonzi</td>
+                    </tr>
+                    <tr>
+                        <td class="play_icon"><a href="https://youtu.be/T3I_bUwoQOM" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>La Llorona</td>
+                        <td>Alanna Ubach,Antonio Sol</td>
+                    </tr>
+                    <tr>
+                       <td class="play_icon"><a href="https://youtu.be/B0lchjz1RQg" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Proud Corazon</td>
+                        <td>Anthony Gonzalez</td>
+                    </tr>
+                    <tr>
+                      <td class="play_icon"><a href="https://youtu.be/QktccMfNPc4" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                       <td>Recuerdame(Interpretada por Ernesto De la Cruz)</td>
+                        <td>Marco Antonio Solis</td>
+                    </tr>
+                    <tr>
+                       <td class="play_icon"><a href="https://youtu.be/DLfGxcucAyI" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>Juanita</td>
+                        <td>Gael Garcia Bernal</td>
+                    </tr>
+                     <tr>
+                       <td class="play_icon"><a href="https://youtu.be/wC8nl9T7HPs" target="_blank"><img src="./img/play_icon.png" alt="icon"></a></td>
+                        <td>El Latido de mi Corazon</td>
+                        <td>Luis Angel Gomez Jaramillo</td>
+                    </tr>
+                </table>
+            </div>
+        </div> 
+        <div class="section" id="section05">
+            <div class="video">
+                <iframe width="1260" height="815" src="https://www.youtube.com/embed/zNCz4mQzfEI?autoplay=0&autohide=1&controls=0&rel=0&loop=1&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+/*fullpage _wrap*/
+#fullpage{width: 100%;height: 100%; }
+
+/*section01*/
+#section01{
+    width: 100%; 
+    background: url("../img/11398.jpg")no-repeat 100%;
+    background-size:cover;
+    position: relative;
+}
+@keyframes coco_logo{
+    0%{}
+    50%{margin-bottom: 25px;}
+    100%{}
+}
+#section01 .logo{
+    width: 100%; max-width:950px; margin: 0 auto;
+    display: none;
+    animation-name:coco_logo;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+#section01 .pepita_class{
+    position: absolute;
+    width: 350px;
+    z-index: 99999;
+    top: 0px;
+    right: 0;
+}
+
+/*section02*/
+#section02{
+    position: relative;
+    width: 100%;
+    background: url("../img/section02.jpg")no-repeat 100%;
+}
+#dragon{
+/*    animation-direction: reverse;*/
+    width:55px;
+    position:absolute;
+    right:2px;
+    bottom:100px;
+}
+.dragon_keyframes{
+    animation-name:dragon;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+@keyframes dragon{
+    0%{}
+    100%{right:50%;bottom:100px;width:1000px;margin-right:-500px;}
+}
+#bubble{
+   position: absolute;
+    left:55%;
+    bottom: 600px;
+    display: none;
+}
+
+/*section03*/
+#section03 .cha_info{
+    margin:0 auto; height: 800px;
+}
+#section03 .line{
+    width: 3px; height: 20px; background-color: #f84700;
+    margin: 0 auto;
+}
+#section03 .title3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: cursive; 
+}  
+#section03 p{text-align: center;  padding-bottom: 80px; font-family:sans-serif;}
+#section03 .swiper-wrapper{width:1100px; margin: 0 auto; margin-top:60px;}
+#section03 .swiper-wrapper .swiper-slide  li{
+    list-style: none;
+    float: left;
+    padding-right: 20px;
+    cursor: pointer;
+}
+/*section04*/
+#section04 .ost{margin: 0 auto; height: 800px; max-width: 1600px; position: relative;}
+#section04 #ost_icon{margin: 0 auto;width: 100px; height: 100px;}
+#ost_i{width: 100%; }
+#ost_icon h1{text-align: center; font-family:cursive}
+#section04 .ost_img{position: absolute; left: 0; top: 29%; z-index: 1}
+#section04 #cd{position: absolute; left: 20%; top: 28%; width: 470px;}
+#section04 .play_list{position: absolute; width: 850px; right: 0; top: 30%; text-align: center;}
+.play_list th{padding-bottom:25px;}
+.play_list .play_icon img{width: 25px;}
+
+/*section05*/
+#section05 {position: relative; overflow: auto;}
+#section05:before{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background: url("../img/fixar.jpg");
+  background-size:cover;
+  width: 100%;
+  height: 100%;
+
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);}
+#section05 .video{width: 1260px; margin: 0 auto; 
+-autoplay:
+}
+/*@media screen and (max-width:1100px){
+    
+}*/
