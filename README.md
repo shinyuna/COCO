@@ -3,12 +3,7 @@ COCO
 
 # Movie the COCO introduction page
 
-### My filling
+### My feeling
 * happy
 * sad
 * good
-
-### DB spec
-FE : angulr
-BE : nodejs
-DB : mongodb
